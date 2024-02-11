@@ -1,0 +1,244 @@
+{
+    "documents": [
+        {
+            "issuer": {
+                "address": {
+                    "branchID": "0",
+                    "country": "EG",
+                    "governate": "CAIRO",
+                    "regionCity": "Sheraton Heliopolis",
+                    "street": "Markez Al Maalomat",
+                    "buildingNumber": "19",
+                    "postalCode": "11361",
+                    "floor": "",
+                    "room": "",
+                    "landmark": "",
+                    "additionalInformation": ""
+                },
+                "type": "B",
+                "id": "311045022",
+                "name": "المشروعات الهندسية للإنشاءات المدنية و المعدنية"
+            },
+            "receiver": {
+                "address": {
+                    "country": "EG",
+                    "governate": "القاهرة",
+                    "regionCity": "شارع منظمة الوحدة الإفريقية - العباسية",
+                    "street": "0000000",
+                    "buildingNumber": "0",
+                    "postalCode": "",
+                    "floor": "",
+                    "room": "",
+                    "landmark": "",
+                    "additionalInformation": ""
+                },
+                "type": "B",
+                "id": "628416253",
+                "name": "الوحدة الحسابية المركزية"
+            },
+            "documentType": "I",
+            "documentTypeVersion": "1.0",
+            "dateTimeIssued": "2022-12-25T00:00:00Z",
+            "taxpayerActivityCode": "4100",
+            "internalID": "ختامى مشروع اسوان 66",
+            "purchaseOrderReference": "",
+            "purchaseOrderDescription": "",
+            "salesOrderReference": "",
+            "salesOrderDescription": "",
+            "proformaInvoiceNumber": "",
+            "payment": {
+                "bankName": "",
+                "bankAddress": "",
+                "bankAccountNo": "",
+                "bankAccountIBAN": "",
+                "swiftCode": "",
+                "terms": ""
+            },
+            "delivery": {
+                "approach": "",
+                "packaging": "",
+                "dateValidity": "",
+                "exportPort": "",
+                "countryOfOrigin": "",
+                "grossWeight": 0,
+                "netWeight": 0,
+                "terms": ""
+            },
+            "invoiceLines": [
+                {
+                    "description": "بالمتر المسطح الحوائط الداخلية و الخارجية فوق المنسوب ( 4.4 م ) بقواطيعبالمتر المسطح الحوائط الداخلية و الخارجية فوق منسوب ( 4.4 م ) بقواطيع من الصاج الملون سمك 0.5 مم الجلفنة لاتقل عن 180 ميكرون جلفنة علي الساخن و الدهانات لاتقل عن 25 ميكرون",
+                    "itemType": "GS1",
+                    "itemCode": "6223008570014",
+                    "internalCode": "1",
+                    "unitType": "M",
+                    "quantity": 5204,
+                    "unitValue": {
+                        "currencySold": "EGP",
+                        "amountSold": 0,
+                        "currencyExchangeRate": 0,
+                        "amountEGP": 250
+                    },
+                    "salesTotal": 1301000,
+                    "valueDifference": 0,
+                    "totalTaxableFees": 0,
+                    "discount": {
+                        "rate": 0,
+                        "amount": 0
+                    },
+                    "netTotal": 1301000,
+                    "itemsDiscount": 0,
+                    "taxableItems": [
+                        {
+                            "taxType": "T1",
+                            "subType": "V006",
+                            "rate": 0,
+                            "amount": 0
+                        }
+                    ],
+                    "total": 1301000
+                },
+                {
+                    "description": "بالمتر الطولي توريد و تركيب نوازل الصرف من مواسير PVC 4 بالمتر الطولي توريد و تركيب نوازل الصرف من مواسير PVC 4 البند بجميع مشتملاتة",
+                    "itemType": "GS1",
+                    "itemCode": "6223008570298",
+                    "internalCode": "30",
+                    "unitType": "M",
+                    "quantity": 1598,
+                    "unitValue": {
+                        "currencySold": "EGP",
+                        "amountSold": 0,
+                        "currencyExchangeRate": 0,
+                        "amountEGP": 250
+                    },
+                    "salesTotal": 399500,
+                    "valueDifference": 0,
+                    "totalTaxableFees": 0,
+                    "discount": {
+                        "rate": 0,
+                        "amount": 0
+                    },
+                    "netTotal": 399500,
+                    "itemsDiscount": 0,
+                    "taxableItems": [
+                        {
+                            "taxType": "T1",
+                            "subType": "V006",
+                            "rate": 0,
+                            "amount": 0
+                        }
+                    ],
+                    "total": 399500
+                },
+                {
+                    "description": "بالمتر المسطح توريد و تركيب باب من قطاعات معدنيةبالمتر المسطح توريد و تركيب باب من قطاعات معدنية roll Up shutter مركب علي حلق من المعدن",
+                    "itemType": "GS1",
+                    "itemCode": "6223008570335",
+                    "internalCode": "34",
+                    "unitType": "M",
+                    "quantity": 495,
+                    "unitValue": {
+                        "currencySold": "EGP",
+                        "amountSold": 0,
+                        "currencyExchangeRate": 0,
+                        "amountEGP": 2500
+                    },
+                    "salesTotal": 1237500,
+                    "valueDifference": 0,
+                    "totalTaxableFees": 0,
+                    "discount": {
+                        "rate": 0,
+                        "amount": 0
+                    },
+                    "netTotal": 1237500,
+                    "itemsDiscount": 0,
+                    "taxableItems": [
+                        {
+                            "taxType": "T1",
+                            "subType": "V006",
+                            "rate": 0,
+                            "amount": 0
+                        }
+                    ],
+                    "total": 1237500
+                },
+                {
+                    "description": "بالمتر المسطح توريد و تركيب باب من قطاعات معدنيةبالمتر المسطح توريد و تركيب باب من قطاعات معدنية ( ضلفة واحدة ) مركب علي حلق من المعدن",
+                    "itemType": "GS1",
+                    "itemCode": "6223008570335",
+                    "internalCode": "34",
+                    "unitType": "M",
+                    "quantity": 109,
+                    "unitValue": {
+                        "currencySold": "EGP",
+                        "amountSold": 0,
+                        "currencyExchangeRate": 0,
+                        "amountEGP": 1938
+                    },
+                    "salesTotal": 211242,
+                    "valueDifference": 0,
+                    "totalTaxableFees": 0,
+                    "discount": {
+                        "rate": 0,
+                        "amount": 0
+                    },
+                    "netTotal": 211242,
+                    "itemsDiscount": 0,
+                    "taxableItems": [
+                        {
+                            "taxType": "T1",
+                            "subType": "V006",
+                            "rate": 0,
+                            "amount": 0
+                        }
+                    ],
+                    "total": 211242
+                },
+                {
+                    "description": "بالمتر المسطح توريد و تركيب شباك جرار من قطاعات الألومنيوم P.Sبالمتر المسطح توريد و تركيب شباك جرار من قطاعات الألومنيوم P.S صغير وزجاج سيكوريت سمك 6 مم شفاف للوحدات مركب علي حلق",
+                    "itemType": "GS1",
+                    "itemCode": "6223008570335",
+                    "internalCode": "34",
+                    "unitType": "M",
+                    "quantity": 1,
+                    "unitValue": {
+                        "currencySold": "EGP",
+                        "amountSold": 0,
+                        "currencyExchangeRate": 0,
+                        "amountEGP": 2374
+                    },
+                    "salesTotal": 2374,
+                    "valueDifference": 0,
+                    "totalTaxableFees": 0,
+                    "discount": {
+                        "rate": 0,
+                        "amount": 0
+                    },
+                    "netTotal": 2374,
+                    "itemsDiscount": 0,
+                    "taxableItems": [
+                        {
+                            "taxType": "T1",
+                            "subType": "V006",
+                            "rate": 0,
+                            "amount": 0
+                        }
+                    ],
+                    "total": 2374
+                }
+            ],
+            "totalSalesAmount": 3151616,
+            "totalDiscountAmount": 0,
+            "netAmount": 3151616,
+            "taxTotals": [],
+            "extraDiscountAmount": 0,
+            "totalItemsDiscountAmount": 0,
+            "totalAmount": 3151616,
+            "signatures": [
+                {
+                    "signatureType": "I",
+                    "value": "ANY"
+                }
+            ]
+        }
+    ]
+}

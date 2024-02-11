@@ -1,0 +1,26 @@
+
+
+INSERT INTO portal.items ( id , name_en, name_ar) SELECT id, name_en, name_ar FROM purchases.items
+
+INSERT INTO portal.banks ( id , bank_code, bank_name,currency,bank_account_number,approved) SELECT id, bank_code, bank_name,currency,bank_account_number,approved FROM purchases.banks
+
+INSERT INTO portal.business_natures ( id , name_ar, name_en,item_id) SELECT id, name_ar, name_en,item_id FROM purchases.business_natures
+
+INSERT INTO portal.discount_types ( id , name_ar, name_en,code) SELECT id, name_ar, name_en,code FROM purchases.discount_types
+
+INSERT INTO portal.nature_dealings ( id , name_ar, name_en,code,discount_type_id) SELECT id, name_ar, name_en,code,discount_type_id FROM purchases.nature_dealings
+
+INSERT INTO portal.projects ( id , name_ar, name_en,code,type,item_id,business_nature_id,deleted_at) SELECT id, name_ar, name_en,code,type,item_id,business_nature_id,deleted_at FROM purchases.projects
+
+INSERT INTO portal.suppliers ( id , name_en, name_ar, tax_id_number) SELECT id, name_en, name_ar,nat_tax_number FROM purchases.suppliers
+
+INSERT INTO portal.invoices ( id , item_id, project_id, business_nature_id,detection_number ,supplier_id ,po_number , date_invoice, invoice_number, specifications,  price, amount,total ,value_tax_rate,value_tax,overall_total , other_discount, total_after_discount,restrained_type ,nature_dealing_id ,expense_type ,tax_deduction ,tax_deduction_value ,net_total ,business_insurance_rate ,business_insurance_value,net_total_after_business_insurance ,notes ,approved , user_id,deleted_at) SELECT id, item_id, project_id,business_nature_id,detection_number ,supplier_id ,po_number ,date_invoice ,invoice_number ,specifications ,price ,amount ,total , value_tax_rate,value_tax ,overall_total,other_discount ,total_after_discount ,restrained_type ,nature_dealing_id ,expense_type ,tax_deduction,tax_deduction_value , net_total,business_insurance_rate ,business_insurance_value,net_total_after_business_insurance , notes, approved,user_id ,deleted_at FROM purchases.invoices
+
+INSERT INTO portal.payment_invoices ( id , item_id, project_id,supplier_id ,po_number,invoice_number ,notes ,payment_method , date_payment,exchange_rate ,bank_id , cheque_number, value,date_delivery_in ,recipient_name_in ,date_delivery_out, recipient_name_out,file_name , original_name,approved ,userApproved_id,order_number,user_id,deleted_at  ) SELECT id, item_id, project_id, supplier_id,po_number,invoice_number , notes,payment_method ,date_payment , exchange_rate, bank_id,cheque_number ,value , date_delivery_in, recipient_name_in,date_delivery_out, recipient_name_out,file_name ,original_name ,approved ,userApproved_id,order_number,user_id,deleted_at  FROM purchases.payment_invoices
+
+INSERT INTO addresses (id) SELECT id FROM suppliers
+UPDATE addresses
+SET `country_id` = 64
+
+
+INSERT INTO portal.invoices_histories ( id , invoice_id, approve,dupdate , user_approve, user_edit)SELECT id , invoice_id, approve,dupdate , user_approve, user_edit FROM purchases.invoices_histories

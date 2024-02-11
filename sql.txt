@@ -1,0 +1,15 @@
+ALTER TABLE `purchase_orders` ADD `deduction_id` INT(10) NOT NULL AFTER `final_delivery_status`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
